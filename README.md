@@ -6,7 +6,7 @@ This project focuses on user management using Django Authentication Framework. I
 * Change their passwords, and
 * Reset their Password 
 
-![image](https://github.com/Django-User-Management-System/blob/main/register.png)
+![image](https://github.com/Django-User-Management-System/blob/main/register.jpg)
 
 # Built With
 
