@@ -6,6 +6,8 @@ This project focuses on user management using Django Authentication Framework. I
 * Change their passwords, and
 * Reset their Password 
 
+![image](https://github.com/Django-User-Management-System/blob/main/register.png)
+
 # Built With
 
 * [Python 3.9.11](https://www.python.org/) - Programming Language 
@@ -65,3 +67,37 @@ python -m pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
+
+## To Receive Password Reset Links During Development
+
+Open yout terminal/command prompt and run the following command
+
+```
+(venv) $ python -m smtpd -n -c DebuggingServer localhost:1025
+```
+
+## Contributions
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
+
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## Bug / Feature Request
+
+In case you find a bug, kindly open an issue [here](https://https://github.com/MK3247/Django-News-Aggregator/issues/new). Include your query and your expected results.
+
+## Author 
+
+* **[Charles Wafula](https://https://github.com/MK3247)** 
+
+[![github follow](https://img.shields.io/github/followers/MK3247?label=Follow_on_GitHub)](https://github.com/MK3247)
+[![twitter follow](https://img.shields.io/twitter/follow/codeveterun?style=social)](https://twitter.com/codeveterun)
+
+## References
+
+- [Real Python](https://realpython.com/django-user-management/)
+- Django 3 By Example
