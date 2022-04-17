@@ -111,8 +111,8 @@ AUTHENTICATION_BACKENDS = [
     "social_core.backends.github.GithubOAuth2",
 ]
 
-SOCIAL_AUTH_GITHUB_KEY = '0f9e53f0048fc19f1bc2'
-SOCIAL_AUTH_GITHUB_SECRET = 'e4abc06302e9d81ae647e50f203045369c069ed7'
+SOCIAL_AUTH_GITHUB_KEY = 'xxxx'
+SOCIAL_AUTH_GITHUB_SECRET = 'xxxx'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
